@@ -27,9 +27,11 @@ function Main() {
     // e.target.name se input field ka jo bhi name(name="username") hai use target kr rha h [] ka use kiya hai bcs name sabhi k alag alah hai is liye,
     // e.target.value se uski value kya aa rhi hai use get kr rha hai use target kr rhe hai & jo bhi usme type kr rhe hi use utha rhi hai     
     setRegistration({...registration, [e.target.name]: e.target.value})
-     
+    console.log(registration);
     }
 
+
+    
     
   //jaise hi form submit hua handleSubmit function run hua & registration m jo bhi data h wo sara lekar aya or newRecord m sav kr diya
     const handleSubmit = (e) =>{
