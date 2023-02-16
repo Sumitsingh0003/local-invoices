@@ -10,7 +10,7 @@ function About() {
           <div className='row'>
             <div className='col-md-5 m-auto'>
               <div className='map_s'>
-                <h1>Hello About uS</h1>
+                <h1>Hello About</h1>
               </div>
             </div>
           </div>
